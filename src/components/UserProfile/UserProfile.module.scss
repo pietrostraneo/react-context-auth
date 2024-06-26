@@ -1,0 +1,25 @@
+.navbar {
+
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 12px;
+    width: fit-content;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+}
+
+.user_info {
+    img {
+        border-radius: 12px;
+        width: 400px;
+    }
+}

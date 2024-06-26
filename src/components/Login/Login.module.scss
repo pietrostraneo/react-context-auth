@@ -1,0 +1,19 @@
+.sub_color {
+    color: #9EABB8;
+}
+
+.input {
+    background-color: transparent;
+    border: 1px solid #3D4754;
+    border-radius: 12px;
+    height: 56px;
+    width: 50%;
+    color: white;
+
+    transition: all 0.2s ease-in;
+
+    &:focus,
+    &:hover {
+        border: 1px solid white;
+    }
+}

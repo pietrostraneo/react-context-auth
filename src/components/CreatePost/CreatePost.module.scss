@@ -1,0 +1,36 @@
+.input {
+    background-color: transparent;
+    border: 1px solid #3D4754;
+    border-radius: 12px;
+    height: 56px;
+    width: 100%;
+    color: white;
+
+    padding: 0.5rem;
+
+    transition: all 0.2s ease-in;
+
+    &:focus,
+    &:hover {
+        border: 1px solid white;
+    }
+}
+
+.content_input {
+    height: 20%;
+}
+
+.buttons {
+    background-color: rgba(41, 48, 56, 0.8);
+    padding: 0.7rem;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in;
+    font-size: 2.5rem;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid white;
+    }
+}

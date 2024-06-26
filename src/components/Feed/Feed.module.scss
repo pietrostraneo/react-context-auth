@@ -1,0 +1,17 @@
+.post_feed {
+    .poster {
+        border-radius: 12px;
+        width: 450px !important;
+        height: 225px;
+        object-fit: cover;
+    }
+
+    .fa_bookmark {
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+
+        &:hover {
+            color: red
+        }
+    }
+}

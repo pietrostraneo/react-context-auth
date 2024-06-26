@@ -1,0 +1,18 @@
+.sub_color {
+    color: #9EABB8;
+}
+
+.buttons {
+    background-color: rgba(41, 48, 56, 0.8);
+    padding: 0.7rem;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in;
+    font-size: 2.5rem;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid white;
+    }
+}

@@ -1,0 +1,15 @@
+.jumbo {
+    img {
+        border-radius: 12px;
+        width: 100%;
+    }
+
+    position: relative;
+
+    .overlay {
+        position: absolute;
+        top: 41%;
+        left: 5%;
+        width: 100%;
+    }
+}
